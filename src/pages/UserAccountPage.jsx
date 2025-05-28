@@ -60,7 +60,7 @@ export default function UserAccountPage() {
   // Function to handle resume download
   const handleDownloadResume = () => {
     if (user.resume) {
-      const resumeUrl = `https://vercel.com/aryans-projects-c0da387d/cracklybackend/9r7NTg4fcsR4MEqFn6UtDPrdGoAz/uploads/${user.resume}`; // Adjust the URL as needed
+      const resumeUrl = `https://cracklybackend.onrender.com/uploads/${user.resume}`; // Adjust the URL as needed
       window.open(resumeUrl, "_blank"); // Open the resume in a new tab
     } else {
       Notiflix.Notify.warning("No resume uploaded yet.");
