@@ -26,7 +26,7 @@ export default function MeetingScheduler() {
     setError('');
     
     try {
-      const response = await axios.post('http://localhost:4000/schedule-meeting',formData);
+      const response = await axios.post('https://vercel.com/aryans-projects-c0da387d/cracklybackend/9r7NTg4fcsR4MEqFn6UtDPrdGoAz/schedule-meeting',formData);
       
       console.log("Response on Scheduller : ",response);
       

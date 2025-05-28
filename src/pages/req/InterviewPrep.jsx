@@ -147,7 +147,7 @@ const InterviewPrep = () => {
     setEmailStatus({ sending: true, success: false, error: null });
 
     try {
-      const response = await axios.post('http://localhost:4000/send-interview-responses', emailData);
+      const response = await axios.post('https://vercel.com/aryans-projects-c0da387d/cracklybackend/9r7NTg4fcsR4MEqFn6UtDPrdGoAz/send-interview-responses', emailData);
       
       setEmailStatus({
         sending: false,

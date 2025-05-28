@@ -121,7 +121,7 @@ const VideoRecorder = () => {
                       e.target.parentNode.innerHTML = '<div class="absolute top-0 left-0 w-full h-full rounded-lg bg-gray-200 flex items-center justify-center text-gray-600">Unable to play video</div>';
                     }}
                   >
-                    <source src={`http://localhost:4000/uploads/video/${video.filename}`} type="video/webm" />
+                    <source src={`https://vercel.com/aryans-projects-c0da387d/cracklybackend/9r7NTg4fcsR4MEqFn6UtDPrdGoAz/uploads/video/${video.filename}`} type="video/webm" />
                     Your browser does not support HTML5 video.
                   </video>
                 </div>
@@ -133,7 +133,7 @@ const VideoRecorder = () => {
                       <span className="ml-2">{formatBytes(video.size)}</span>
                     </span>
                     <a
-                      href={`http://localhost:4000/uploads/video/${video.filename}`}
+                      href={`https://vercel.com/aryans-projects-c0da387d/cracklybackend/9r7NTg4fcsR4MEqFn6UtDPrdGoAz/uploads/video/${video.filename}`}
                       download={video.filename}
                       className="bg-blue-500 hover:bg-blue-600 text-white text-xs py-1 px-2 rounded transition-colors duration-200"
                       onClick={(e) => {
