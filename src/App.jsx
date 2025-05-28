@@ -19,7 +19,8 @@ import CertificateComponent from './pages/req/CertificateComponent'
 import MeetingScheduler from './pages/req/MeetingScheduler'
 
 
-axios.defaults.baseURL = 'https://vercel.com/aryans-projects-c0da387d/cracklybackend/9r7NTg4fcsR4MEqFn6UtDPrdGoAz';
+axios.defaults.baseURL = 'https://cracklybackend-git-master-aryans-projects-c0da387d.vercel.app/';
+
 axios.defaults.withCredentials=true;
 
 
